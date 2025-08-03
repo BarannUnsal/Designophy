@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designophy.DataAccess", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designophy.Infrastructure", "Designophy.Infrastructure\Designophy.Infrastructure.csproj", "{DD5551CD-4328-4F2F-AE56-F7CD8811CA4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Designophy.WebModels", "Designophy.WebModels\Designophy.WebModels.csproj", "{730500E0-4ECA-4E26-957C-A63A4261134E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DD5551CD-4328-4F2F-AE56-F7CD8811CA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD5551CD-4328-4F2F-AE56-F7CD8811CA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD5551CD-4328-4F2F-AE56-F7CD8811CA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730500E0-4ECA-4E26-957C-A63A4261134E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730500E0-4ECA-4E26-957C-A63A4261134E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730500E0-4ECA-4E26-957C-A63A4261134E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730500E0-4ECA-4E26-957C-A63A4261134E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

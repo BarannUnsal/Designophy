@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.58" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.1.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Designophy.Entities\Designophy.Entities.csproj" />
+    <ProjectReference Include="..\Designophy.WebModels\Designophy.WebModels.csproj" />
   </ItemGroup>
 
 </Project>
